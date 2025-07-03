@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  padding: 40px;
+  text-align: center;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+#count {
+  font-weight: bold;
+  color: green;
+  margin-left: 5px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #0056b3;
+}

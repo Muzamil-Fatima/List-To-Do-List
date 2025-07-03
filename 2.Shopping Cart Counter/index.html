@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shopping Cart Counter</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <script src="script.js"></script>
+  <div class="container">
+    <h1>🛒 Shopping Cart</h1>
+    <div class="cart">
+      <span>Items in Cart:</span>
+      <span id="count">0</span>
+    </div>
+    <div class="buttons">
+      <button onclick="addItem()">Add Item</button>
+      <button onclick="removeItem()">Remove Item</button>
+      <button onclick="resetCart()">Reset</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
